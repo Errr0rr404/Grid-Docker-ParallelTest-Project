@@ -1,8 +1,9 @@
 Steps to run the project :
 
-1. Download [https://www.docker.com/products/docker-desktop][Docker-Desktop] and login 
+1. Sign up and Download [https://www.docker.com/products/docker-desktop] and login on downloaded docker-desktop 
 2. From the project directory run below commands 
- * `docker-compose up` from the project directory
+ * `docker login`
+ * `docker-compose up`
  * `docker-compose scale chrome=(?)` ,
  * `docker-compose scale firefox=(?)`
 
