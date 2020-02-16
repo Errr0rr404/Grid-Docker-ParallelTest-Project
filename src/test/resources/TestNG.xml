@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation" parallel="classes">
+    <test name="Automation Tests">
+        <classes>
+            <class name="com.worldofautomation.dockerselenium.parallel.ParallelGridExecutionChrome1"/>
+            <class name="com.worldofautomation.dockerselenium.parallel.ParallelGridExecutionChrome2"/>
+            <class name="com.worldofautomation.dockerselenium.parallel.ParallelGridExecutionFirefox1"/>
+            <class name="com.worldofautomation.dockerselenium.parallel.ParallelGridExecutionFirefox2"/>
+        </classes>
+    </test>
+</suite>
